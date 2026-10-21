@@ -1,3 +1,11 @@
+ca-certificates (20250419+deb13u1) trixie-security; urgency=high
+
+  * Non-maintainer upload by the Security Team.
+  * Blacklist "emSign ECC Root CA - G3" and "Comodo AAA Services root"
+    (Closes: #1151413)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 20 Oct 2026 16:57:59 +0200
+
 ca-certificates (20250419) unstable; urgency=medium
 
   [ Alexander Kanavin ]
