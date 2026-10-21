@@ -3,4 +3,9 @@
 # Blacklist explicitly distrusted certificates to explicitly ignore them and prevent build errors
 "Explicitly Distrust DigiNotar Root CA"
 
+# Blacklist "emSign ECC Root CA - G3" (cf. #1151413)
+"emSign ECC Root CA - G3"
+# Blacklist "Comodo AAA Services root" (cf. #1151413)
+"Comodo AAA Services root"
+
 # Expired CAs
